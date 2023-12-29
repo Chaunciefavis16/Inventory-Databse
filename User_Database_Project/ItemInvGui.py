@@ -95,7 +95,7 @@ class DataInventoryGUI(tk.Tk):
             return True
         except ValueError:
             messagebox.showerror(
-                'Error', 'Inavalid Input in the  "Price" field.')
+                'Error', 'Invalid Input in the  "Price" field.')
             return False
 
     def add_entry(self):
